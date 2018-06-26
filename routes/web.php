@@ -38,6 +38,8 @@ Route::group(['middleware'=>'admin'],function(){
     Route::resource('Admin/category', 'AdminCategoryController');
     
     Route::resource('Admin/media', 'AdminMediaController');
+    //multi delete with js
+    Route::delete('/delete/media','AdminMediaController@deleteMedia');
     
     
     Route::resource('Admin/comments','PostCommentController');

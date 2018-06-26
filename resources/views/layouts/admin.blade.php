@@ -356,6 +356,7 @@
 
 <!-- jQuery -->
 <script src="{{asset('js/libs.js')}}"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
 @yield('scripts')
 
